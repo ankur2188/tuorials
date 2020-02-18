@@ -34,6 +34,10 @@ git checkout 123432 -- index.html
 Pushing to github remote repo
 ------------------------------
 
-git remote add repoAlias http://github.com/ankur/tuorials.git
+git remote add remoteRepoAlias https://github.com/ankur2188/tuorials.git
+git push -u remoteRepoAlias master -> add files
 
+Github desktop
+----------------
+.gitignore for ignoring few files.
 
