@@ -1,0 +1,39 @@
+git init
+ls -la
+git add .
+git add third.txt
+git commit -m "first commit"
+git log
+git log --author="ankur"
+working copy > staging area > repository
+git diff - compares working copy and repo copy, but since after git add it moves to stagin ared, git diff does not show any differences.
+git diff --staged
+git rm third.txt - removes from repo and working copy as well.
+Rename -> rename file on disk, do git rm updated.txt and then git add old.txt. Git will realize that u did rename, check this by doing git status
+Easy way to rename -> git mv second.txt pudding.txt
+git mv pudding.txt LoveNotes/patty.txt
+git commit -am "Commit directly to repo", use it when made general edits to the file not when rename and move is done.
+
+Undo the changes
+-----------------
+1. git status for changes.
+2. git checkout -- index.html , checks out the file from the repository and make it your working copy
+
+Bring down from staging area
+-----------------------------
+1. git add .
+2. git status -> moves to staging
+3. git reset HEAD index.html -> removes from staging.
+
+Getting older version from Repo
+--------------------------------
+1. 1st > 2nd > 3rd > 2nd
+
+git checkout 123432 -- index.html
+
+Pushing to github remote repo
+------------------------------
+
+git remote add repoAlias http://github.com/ankur/tuorials.git
+
+
