@@ -41,3 +41,21 @@ Github desktop
 ----------------
 .gitignore for ignoring few files.
 
+Branches
+---------
+Create branch, add a file, create pull request from the new branch and approve it for the master brach by doing merge pull request.
+
+Use raw mode for code copying.
+
+Watch/UnWatch - getting notifications
+Star/Unstar - bookmarking
+Fork - work with other projects and it creates master of the same repo for u. Once u have changes to commit, u can create a new pull request.
+
+Issues/Labels
+--------------
+created in github and label them like bud, enhancemen etc
+new labels can be created.
+
+Wiki can be added for more documentation around project.
+
+Creating organization from the same place where we create new repository, makes u create private repo and offer plans at some cost for this. 
